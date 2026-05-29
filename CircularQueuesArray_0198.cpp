@@ -54,7 +54,7 @@ public:
             cout << "Queue underflow\n";
             return;
         }
-        cout << "\nThe Element Deleted From The Queue Is: " << queue_array[FRONT] ,< "\n";
+        cout << "\nThe Element Deleted From The Queue Is: " << queue_array[FRONT] << "\n";
 
         // cek jika antrian hanya memuiliki satu elemen
         if (FRONT == REAR)
@@ -108,7 +108,7 @@ public:
             FRONT_Position = 0;
 
             // iterasi dari awal array hingga REAR
-            while (FRONT_Position <= REAR REAR_Position)
+            while (FRONT_Position <= REAR_Position)
             {
                 cout << queue_array[FRONT_Position] << "  ";
                 FRONT_Position++;
